@@ -79,6 +79,8 @@ public interface CYKAlgorithmInterface {
      * conjunto de terminales definido para la gramática introducida, si la
      * gramática es vacía o si el autómata carece de axioma.
      */
+    
+    
     public String algorithmStateToString(String word) throws CYKAlgorithmException;
 
     /**
